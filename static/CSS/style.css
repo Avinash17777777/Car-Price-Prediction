@@ -1,0 +1,61 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+.bg-dark {
+    background: linear-gradient(135deg, #FF8F8F, #B7A3E3, #BDE3C3);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Margin utility */
+.mt-50 {
+    margin-top: 50px;
+}
+
+/* Card styling (recommended for forms) */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Form inputs */
+input, select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+}
+
+/* Canvas styling */
+#canvas {
+    border: 2px solid #222;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
